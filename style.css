@@ -1,13 +1,57 @@
 html {
   font-size: 10px;
-  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/549e9b77-4c90-4c7f-8d0e-772a4ba70576/dbbpqj5-dfbf4e9d-e4d9-4c1c-81c6-fd8511db78d0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi81NDllOWI3Ny00YzkwLTRjN2YtOGQwZS03NzJhNGJhNzA1NzYvZGJicHFqNS1kZmJmNGU5ZC1lNGQ5LTRjMWMtODFjNi1mZDg1MTFkYjc4ZDAuanBnIn1dXX0.Ag68fVwPtnlaVt6V46dzFRA7iPh-rjax-cjACzlXm3k) bottom center;
-  background-size: cover;
 }
 
 body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.container {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/549e9b77-4c90-4c7f-8d0e-772a4ba70576/dbbpqj5-dfbf4e9d-e4d9-4c1c-81c6-fd8511db78d0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi81NDllOWI3Ny00YzkwLTRjN2YtOGQwZS03NzJhNGJhNzA1NzYvZGJicHFqNS1kZmJmNGU5ZC1lNGQ5LTRjMWMtODFjNi1mZDg1MTFkYjc4ZDAuanBnIn1dXX0.Ag68fVwPtnlaVt6V46dzFRA7iPh-rjax-cjACzlXm3k) bottom center;
+  background-size: cover;
+
+}
+
+.creditsmodal-outer {
+    display: grid;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    /* hide this until we need it */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.creditsmodal-inner {
+    padding: 10rem;
+    font-size: x-large;
+    color: #ffc600;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.creditsmodal-inner a {
+    color: #ffc600;
+}
+
+.is-blurred {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.creditsmodal-outer.open {
+    opacity: 1;
+    pointer-events: all;
 }
 
 .keys {

@@ -1,0 +1,22 @@
+{
+  "name": "lofi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nil0h/lofi_audio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nil0h/lofi_audio/issues"
+  },
+  "homepage": "https://github.com/nil0h/lofi_audio#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
