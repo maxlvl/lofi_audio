@@ -93,3 +93,10 @@ kbd {
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+.modalButton {
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    margin: auto;
+}
