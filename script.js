@@ -31,7 +31,7 @@ function closeModal() {
   container.classList.remove('is-blurred')
 }
 
-window.onload(event => {
+function startRun() {
   keys.forEach(key => key.addEventListener('click', playSound))
   keys.forEach(key => {
       let keyNumber = key.dataset.key
@@ -118,5 +118,6 @@ window.onload(event => {
     window.removeEventListener('keyup', stopSoundFromKey)
   
   }
-}) 
+}
 
+window.onload = startRun
