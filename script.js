@@ -31,7 +31,7 @@ function closeModal() {
   container.classList.remove('is-blurred')
 }
 
-window.addEventListener("DOMContentLoaded", event => {
+window.onload(event => {
   keys.forEach(key => key.addEventListener('click', playSound))
   keys.forEach(key => {
       let keyNumber = key.dataset.key
