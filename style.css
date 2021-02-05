@@ -9,7 +9,7 @@ body,html {
 }
 
 .container {
-    background: url("images/lofibackground.jpg") bottom center;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/549e9b77-4c90-4c7f-8d0e-772a4ba70576/dbbpqj5-dfbf4e9d-e4d9-4c1c-81c6-fd8511db78d0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi81NDllOWI3Ny00YzkwLTRjN2YtOGQwZS03NzJhNGJhNzA1NzYvZGJicHFqNS1kZmJmNGU5ZC1lNGQ5LTRjMWMtODFjNi1mZDg1MTFkYjc4ZDAuanBnIn1dXX0.Ag68fVwPtnlaVt6V46dzFRA7iPh-rjax-cjACzlXm3k) bottom center;
   background-size: cover;
 
 }
