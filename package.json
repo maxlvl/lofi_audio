@@ -18,5 +18,6 @@
   "homepage": "https://github.com/nil0h/lofi_audio#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "dependencies": {}
 }
