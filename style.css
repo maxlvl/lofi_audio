@@ -96,7 +96,8 @@ kbd {
 
 .modalButton {
     position: absolute;
-    bottom: 2em;
-    left: 50%;
+    bottom: 5em;
+    min-height: 5rem;
+    left: 42%;
     margin: auto;
 }
